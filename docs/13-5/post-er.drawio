@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="7LzYDhDe0WFqFfAwfE_6">
+    <mxGraphModel dx="347" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eM-bX2FnryC-q1yEr0Ln-7" edge="1" parent="1" source="eM-bX2FnryC-q1yEr0Ln-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" target="eM-bX2FnryC-q1yEr0Ln-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eM-bX2FnryC-q1yEr0Ln-9" connectable="0" parent="eM-bX2FnryC-q1yEr0Ln-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="一人のユーザーは&lt;div&gt;多数の投稿をもつ&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.003" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eM-bX2FnryC-q1yEr0Ln-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Users" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="-440" as="geometry" />
+        </mxCell>
+        <mxCell id="eM-bX2FnryC-q1yEr0Ln-8" edge="1" parent="1" source="eM-bX2FnryC-q1yEr0Ln-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210.0000000000001" y="-210.090909090909" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eM-bX2FnryC-q1yEr0Ln-11" connectable="0" parent="eM-bX2FnryC-q1yEr0Ln-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="一つのカテゴリは&lt;div&gt;多数の投稿をもつ&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0114" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eM-bX2FnryC-q1yEr0Ln-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Categories" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="eM-bX2FnryC-q1yEr0Ln-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Posts" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="-240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
